@@ -1,0 +1,16 @@
+.fn {
+  font-family: Agbalumo;
+}
+.w-inherit {
+  align-items: center;
+}
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #2b3035;
+}
+.im {
+  height: 750px;
+  margin-left: 200px;
+}

@@ -1,0 +1,18 @@
+{% extends 'login/base.html' %} {% block content %}
+<head>
+  <link rel="stylesheet" href="/static/css/search.css" />
+</head>
+<div class="card mb-3">
+  <div class="row g-0">
+    {% if status %} {% for i in movies_poster %}
+    <div class="col-md-4 wi">
+      <img src="{{ i }}" class="img-fluid rounded-start h" alt="Movie Poster" />
+    </div>
+    {% endfor %} {% else %}
+    <div class="col-md-12">
+      <p>No search results found.</p>
+    </div>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}

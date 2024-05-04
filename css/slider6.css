@@ -1,0 +1,46 @@
+.slider-container {
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slideres6 {
+  width: 300%; /* Each set of slides takes up 100% width, and we have 3 sets of slides */
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide-set {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.slideses6 {
+  padding-right: 30px;
+  box-sizing: border-box;
+}
+
+.sl-img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.slider-btn {
+  position: absolute;
+  transform: translateY(-700%);
+  cursor: pointer;
+  font-size: 24px;
+  color: #fff;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.prev-btn {
+  left: 10px;
+}
+
+.next-btn {
+  right: 10px;
+}

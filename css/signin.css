@@ -1,0 +1,23 @@
+body {
+  background-color: #2e3338;
+  background-image: url("/static/img/bg.jpeg");
+}
+.mar {
+  margin-left: 350px;
+  margin-top: 50px;
+}
+.mar1 {
+  margin-left: 750px;
+  margin-top: 50px;
+}
+.mar2 {
+  margin-left: 70px;
+}
+.up {
+  margin-top: 300px;
+  margin-left: 500px;
+}
+.sin {
+  margin-bottom: 300px;
+  margin-left: 500px;
+}

@@ -1,0 +1,64 @@
+{% extends 'login/base.html' %} {% block content %}
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>movie</title>
+  <link rel="stylesheet" href="/static/css/movie.css" />
+</head>
+<body>
+  <!-- {% if user.is_authenticated %} -->
+  <!-- {% endif %} -->
+  <!-- carousel -->
+  <div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img
+          src="/static/img/youngsheldon.jpg"
+          class="d-block w-inherit im"
+          alt="..."
+        />
+      </div>
+      <div class="carousel-item">
+        <img
+          src="/static/img/Borderland.jpg"
+          class="d-block w-inherit im"
+          alt="..."
+        />
+      </div>
+      <div class="carousel-item active">
+        <img src="..." class="d-block w-inherit im" alt="..." />
+      </div>
+    </div>
+    <button
+      class="carousel-control-prev"
+      type="button"
+      data-bs-target="#carouselExample"
+      data-bs-slide="prev"
+    >
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button
+      class="carousel-control-next"
+      type="button"
+      data-bs-target="#carouselExample"
+      data-bs-slide="next"
+    >
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- Slider -->
+  <br />
+  <br />
+  {% include 'login/slider1.html' %} {% block slider1 %} {% endblock %}<br />
+  {% include 'login/slider2.html' %} {% block slider2 %} {% endblock %} <br />
+  {% include 'login/slider3.html' %} {% block slider3 %} {% endblock %} <br />
+  {% include 'login/slider4.html' %} {% block slider4 %} {% endblock %} <br />
+  {% include 'login/slider5.html' %} {% block slider5 %} {% endblock %} <br />
+  {% include 'login/slider6.html' %} {% block slider6 %} {% endblock %} <br />
+  {% include 'login/slider7.html' %} {% block slider7 %} {% endblock %} <br />
+
+  {% endblock %}
+</body>
